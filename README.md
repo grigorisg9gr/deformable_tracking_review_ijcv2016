@@ -8,11 +8,11 @@ A brief explanation of each file is included below, however you are encouraged t
 
 * train_shape_predictors_on_presaved_images_bb.ipynb : Trains the landmark localisation models on images from public datasets with pre-saved bounding boxes.
 * run_online_tracking_by_detection.ipynb : Runs the (python) detectors (on the testset) and on top of them a landmark localisation method and exports the bounding boxes and the landmarks. 
-* tracker_from_previous_all_methods. ipynb : Perform tracking from the previous frame (on the testset). 
+* tracker_from_previous_all_methods.ipynb : Perform tracking from the previous frame (on the testset). 
 
 
 #### **Folder structure**
-The files that are running on the testset assume the following folder structure: 
+The afore-mentioned code assumes the following folder structure for the 300-VW testset: 
 
 ```
 path_base_testset
@@ -40,6 +40,10 @@ path_base_testset
 Apart from menpo [(menpo, menpodetect, menpofit)](https://github.com/menpo/menpo) the following packages are used: 
 * workerbee ``` pip install workerbee```
 * research_pyutils from [this repository](https://github.com/grigorisg9gr/pyutils).
+
+Workerbee is a package that was used to execute the per frame processing in parallel utilising condor.
+The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the latest version of v0.7.0.
+
 
 #### **Feedback**
 If you do have any questions or improvements, feel free to open issues here or contribute right away. Feedback is always appreciated.
