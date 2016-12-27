@@ -14,6 +14,48 @@ The various methods utilised in this paper can be found in:
 
 * detectors:
 
+| Name    |  Link                                     |
+|:---------:|-------------------------------------------|
+| DPM     | https://github.com/menpo/ffld2            |
+| HR-TF   | https://www.cs.cmu.edu/~peiyunh/tiny/     |
+| MTCNN   | https://goo.gl/4BMGeR                     |
+| NPD     | https://goo.gl/dRXp8d                     |
+| SS-DPM  | https://www.ics.uci.edu/~xzhu/face        |
+| SVM+HOG | https://github.com/davisking/dlib         |
+| VJ      | http://opencv.org                         |
+| VPHR    | http://cvit.iiit.ac.in/projects/exemplar/ |
+
+* trackers:
+
+me     | Link                                  |
+|:----------:|---------------------------------------|
+| CAMSHIFT | http://opencv.org                     |
+| CCOT     | https://goo.gl/Rnf73K                 |
+| CMT      | https://github.com/gnebehay/CppMT     |
+| DF       | http://goo.gl/YmG6W4                  |
+| DLSSVM   | https://goo.gl/m4ro8x                 |
+| DSST     | https://github.com/davisking/dlib     |
+| FCT      | http://goo.gl/Ujc5B0                  |
+| HDT      | https://goo.gl/9KgteR                 |
+| IVT      | http://goo.gl/WtbOIX                  |
+| KCF      | https://github.com/joaofaro/KCFcpp    |
+| LCT      | https://goo.gl/8kaO7T                 |
+| LRST     | http://goo.gl/ZC9JbQ                  |
+| MDNET    | https://github.com/HyeonseobNam/MDNet |
+| MEEM     | https://goo.gl/Bj6typ                 |
+| MIL      | http://opencv.org                     |
+| ORIA     | https://goo.gl/RT3zNC                 |
+| PF       | https://goo.gl/tSZcAg                 |
+| RPT      | https://github.com/ihpdep/rpt         |
+| SIAM-OXF | https://goo.gl/sjGgVj                 |
+| SPOT     | http://visionlab.tudelft.nl/spot      |
+| SPT      | https://goo.gl/EOquai                 |
+| SRDCF    | https://goo.gl/Q9d1O5                 |
+| STAPLE   | https://github.com/bertinetto/staple  |
+| STCL     | https://goo.gl/l29dQg                 |
+| STRUCK   | http://goo.gl/gLR93b                  |
+| TGPR     | https://goo.gl/EBw0WI                 |
+| TLD      | https://github.com/zk00006/OpenTLD    |
 
 
 
