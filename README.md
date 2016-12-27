@@ -1,14 +1,20 @@
-Git repository for the preparation of the IJCV journal with title [`A comprehensive performance evaluation of deformable face tracking in-the-wild`](https://arxiv.org/abs/1603.06015)
+Git repository associated with the IJCV journal [`A comprehensive performance evaluation of deformable face tracking in-the-wild`](https://arxiv.org/abs/1603.06015).
 
-The files included here are the python files that will allow you to reproduce the results of the paper. The rest of the (MATLAB/C/C++) codes can be found in the sites mentioned in the paper. 
+The purpose of the files in the repo is to provide a concrete sample of how the models described in the paper were trained/utilised, hence allowing the reproduction of the results or further investigation/dissemination of these models.
 
-The purpose of the files is to provide an explanation along with the params used to train the optimal models, hence allowing the reproduction of the results or further investigation/dissemination of these models.
-
-A brief explanation of each file is included below, however you are encouraged to browse through the notebooks, which include more detailed comments along with the code. 
+A brief explanation of each file is included below, however you are encouraged to browse through the notebooks, which include more detailed comments along with the code.
 
 * train_shape_predictors_on_presaved_images_bb.ipynb : Trains the landmark localisation models on images from public datasets with pre-saved bounding boxes.
 * run_online_tracking_by_detection.ipynb : Runs the (python) detectors (on the testset) and on top of them a landmark localisation method and exports the bounding boxes and the landmarks. 
 * tracker_from_previous_all_methods.ipynb : Perform tracking from the previous frame (on the testset). 
+
+#### **Links for detectors/trackers utilised**
+
+The various methods utilised in this paper can be found in:
+
+* detectors:
+
+
 
 
 #### **Folder structure**
