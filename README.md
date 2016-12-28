@@ -104,3 +104,7 @@ The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo projec
 If you do have any questions or improvements, feel free to open issues here or contribute right away. Feedback is always appreciated.
 Due to the heavy development of menpo and its research purpose, often there are breaking changes. If you encounter a compatibility issue with the latest menpo releases, please get in touch and I will fix the issue. 
 
+
+### *License**
+Apache 2, version 2.0, see [http://www.apache.org/licenses](http://www.apache.org/licenses/#2.0) for further details.
+
