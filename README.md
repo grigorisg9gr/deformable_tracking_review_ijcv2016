@@ -2,6 +2,16 @@ Git repository associated with the IJCV journal [`A comprehensive performance ev
 
 The purpose of the files in the repo is to provide a concrete sample of how the models described in the paper were trained/utilised, hence allowing the reproduction of the results or further investigation/dissemination of these models.
 
+### **Table of contents**
+1. [Brief explanation of file contents](#brief_intro)
+2. [How to use these files](#how_to_use)
+3. [Links for detectors/trackers utilised](#links)
+4. [Folder structure](#structure)
+5. [Dependencies](#dependencies)
+6. [Feedback](#feedback)
+7. [License](#license)
+
+### **Brief explanation of file contents** <a name="brief_intro"></a>
 A brief explanation of each file is included below, however you are encouraged to browse through the notebooks, which include more detailed comments along with the code. In case you want to execute those, please ensure you follow the instructed folder/path format that is expected or modify the code to match your paths accordingly.
 
 * train_shape_predictors_on_presaved_images_bb.ipynb : Trains the landmark localisation models on images from public datasets with pre-saved bounding boxes.
@@ -97,7 +107,7 @@ Apart from menpo [(menpo, menpodetect, menpofit)](https://github.com/menpo/menpo
 * research_pyutils from [this repository](https://github.com/grigorisg9gr/pyutils).
 
 Workerbee is a package that was used to execute the per frame processing in parallel utilising condor.
-The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the latest version of v0.7.0.
+The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the latest version of v0.7.5. If you want to run the code, you are encouraged to install the latest menpo version of [v0.7.5](https://github.com/menpo/menpo/releases/tag/v0.7.5).
 
 
 ### **Feedback**
