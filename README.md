@@ -19,13 +19,14 @@ A brief explanation of each file is included below, however you are encouraged t
 * tracker_from_previous_all_methods.ipynb : Perform tracking from the previous frame (on the testset). 
 
 
-### **How to use these files** <a name="how_to_use"></a>
+<a name="how_to_use"></a>
+### **How to use these files**
 As aforementioned, these are the revised codes for creating (part of ) the results for the journal. They should be used as a guideline to reproduce the results or build similar models for your purpose. They are not published as a pipeline that will be called sequentially, hence you should use with caution.
 
 The links for the actual trackers/detectors are provided below, so you can download and experiment with those directly.
 
-
-### **Links for detectors/trackers utilised** <a name="links"></a>
+<a name="links"></a>
+### **Links for detectors/trackers utilised**
 
 The various methods utilised in this paper can be found in:
 
@@ -115,6 +116,6 @@ If you do have any questions or improvements, feel free to open issues here or c
 Due to the heavy development of menpo and its research purpose, often there are breaking changes. If you encounter a compatibility issue with the latest menpo releases, please get in touch and I will fix the issue. 
 
 
-### *License** <a name="license"></a>
+### **License** <a name="license"></a>
 Apache 2, version 2.0, see [http://www.apache.org/licenses](http://www.apache.org/licenses/#2.0) for further details.
 
