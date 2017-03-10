@@ -1,4 +1,4 @@
-Git repository associated with the IJCV journal [`A comprehensive performance evaluation of deformable face tracking in-the-wild`](https://arxiv.org/abs/1603.06015).
+Git repository associated with the IJCV journal [`A comprehensive performance evaluation of deformable face tracking in-the-wild`](https://ibug.doc.ic.ac.uk/media/uploads/documents/ijcv_deformable_tracking_review.pdf).
 
 The purpose of the files in the repo is to provide a concrete sample of how the models described in the paper were trained/utilised, hence allowing the reproduction of the results or further investigation/dissemination of these models.
 
