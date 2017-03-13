@@ -113,13 +113,13 @@ Apart from menpo [(menpo, menpodetect, menpofit)](https://github.com/menpo/menpo
 * research_pyutils from [this repository](https://github.com/grigorisg9gr/pyutils).
 
 Workerbee is a package that was used to execute the per frame processing in parallel utilising condor.
-The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the latest version of v0.7.5. If you want to run the code, you are encouraged to install the latest menpo version of [v0.7.5](https://github.com/menpo/menpo/releases/tag/v0.7.5).
+The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the latest version of v0.7.5. If you want to run the code, you are encouraged to install the later menpo version of [v0.7.5](https://github.com/menpo/menpo/releases/tag/v0.7.5).
 
 
 <a name="feedback"></a>
 ### **Feedback**
 If you do have any questions or improvements, feel free to open issues here or contribute right away. Feedback is always appreciated.
-Due to the heavy development of menpo and its research purpose, often there are breaking changes. If you encounter a compatibility issue with the latest menpo releases, please get in touch and I will fix the issue. 
+Due to the heavy development of menpo and its research purpose, often there are breaking changes. If you encounter a compatibility issue with the latest menpo releases, feel free to raise an issue. 
 
 
 <a name="license"></a>
