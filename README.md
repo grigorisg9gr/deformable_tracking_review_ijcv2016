@@ -1,4 +1,9 @@
-Git repository associated with the IJCV journal [`A comprehensive performance evaluation of deformable face tracking in-the-wild`](https://ibug.doc.ic.ac.uk/media/uploads/documents/ijcv_deformable_tracking_review.pdf).
+Git repository associated with the IJCV journal [`A comprehensive performance evaluation of deformable face tracking in-the-wild`](https://link.springer.com/article/10.1007/s11263-017-0999-5).
+
+	A Comprehensive Performance Evaluation of Deformable Face Tracking "In-the-Wild".
+	Chrysos, G. G., Antonakos, E., Snape, P., Asthana, A., & Zafeiriou, S.
+	International Journal of Computer Vision (IJCV), 2017.
+
 
 The purpose of the files in the repo is to provide a concrete sample of how the models described in the paper were trained/utilised, hence allowing the reproduction of the results or further investigation/dissemination of these models.
 
@@ -16,10 +21,14 @@ The purpose of the files in the repo is to provide a concrete sample of how the 
 ### **Brief explanation of file contents**
 A brief explanation of each file is included below, however you are encouraged to browse through the notebooks, which include more detailed comments along with the code. In case you want to execute those, please ensure you follow the instructed folder/path format that is expected or modify the code to match your paths accordingly.
 
-* train_shape_predictors_on_presaved_images_bb.ipynb : Trains the landmark localisation models on images from public datasets with pre-saved bounding boxes.
-* run_online_tracking_by_detection.ipynb : Runs the (python) detectors (on the testset) and on top of them a landmark localisation method and exports the bounding boxes and the landmarks. 
-* tracker_from_previous_all_methods.ipynb : Performs tracking from the previous frame (on the testset). 
-* replicate_ijcv_top_curves.ipynb : Reproduces the top curves of the experimental section of the paper. You can add your ow methods and directly compare with the original results.
+* train_shape_predictors_on_presaved_images_bb.ipynb : 
+    Trains the landmark localisation models on images from public datasets with pre-saved bounding boxes.
+* run_online_tracking_by_detection.ipynb : 
+    Runs the (python) detectors (on the testset) and on top of them a landmark localisation method and exports the bounding boxes and the landmarks. 
+* tracker_from_previous_all_methods.ipynb : 
+    Performs tracking from the previous frame (on the testset). 
+* replicate_ijcv_top_curves.ipynb : 
+    Reproduces the top curves of the experimental section of the paper. You can add your ow methods and directly compare with the original results.
 
 
 <a name="how_to_use"></a>
@@ -82,7 +91,7 @@ me     | Link                                  |
 
 <a name="structure"></a>
 ### **Folder structure**
-The afore-mentioned code assumes the following folder structure for the 300-VW testset: 
+The afore-mentioned code assumes the following folder structure for the 300vW testset: 
 
 ```
 path_base_testset
@@ -113,7 +122,7 @@ Apart from menpo [(menpo, menpodetect, menpofit)](https://github.com/menpo/menpo
 * research_pyutils from [this repository](https://github.com/grigorisg9gr/pyutils).
 
 Workerbee is a package that was used to execute the per frame processing in parallel utilising condor.
-The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the latest version of v0.7.5. If you want to run the code, you are encouraged to install the later menpo version of [v0.7.5](https://github.com/menpo/menpo/releases/tag/v0.7.5).
+The version [v0.6.2](https://github.com/menpo/menpo/tree/v0.6.2) of menpo project was the one that the code was originally developed on, however it was updated to follow the newer version of v0.7.5. If you want to run the code, you are encouraged to install the newer menpo version of [v0.7.5](https://github.com/menpo/menpo/releases/tag/v0.7.5).
 
 
 <a name="feedback"></a>
